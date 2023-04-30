@@ -1,0 +1,248 @@
+@charset "utf-8";
+/**
+ * style.css
+ */
+
+/* index
+--------------------------------------------------*/
+/* layout */
+#pageTitle {
+	height: 555px;
+	background-image: url(home.png);
+}
+#pageTitle h2 {
+	background-image: url(../imgs/pagetitle.png);
+}
+/* SP */
+@media only screen and (max-width:640px) {
+	/* pageTitle */
+	#pageTitle {
+		height: 140px;
+	}
+	#pageTitle h2 {
+		bottom: -45px;
+		background-image: url(../imgs/sp/pagetitle.png);
+	}
+}
+
+/* welcome */
+#welcome #slideArea {
+	max-width: 900px;
+	margin: 0 auto 60px;
+}
+#welcome #slideArea #slider {
+	position: relative;
+	padding-bottom: 48.9%;
+}
+#welcome #slideArea #slider li {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#welcome #slideArea .pager {
+	margin-top: 15px;
+	text-align: center;
+}
+#welcome #slideArea .pager li {
+	display: inline-block;
+	margin-left: 10px;
+}
+#welcome #slideArea .pager li:first-child {
+	margin-left: 0;
+}
+#welcome #slideArea .pager li a {
+	display: block;
+	overflow: hidden;
+	width: 8px;
+	height: 8px;
+	border: #1C446B solid 1px;
+	border-radius: 5px;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -5260px;
+}
+#welcome #slideArea .pager li.on a,
+#welcome #slideArea .pager li a:hover {
+	background: #1C446B;
+}
+#welcome h3 {
+	margin-bottom: 40px;
+	color: #1C446B;
+	font-family: 'MatisseProN-M', serif;
+	font-size: 171.5%;
+	line-height: 1.39;
+	text-align: center;
+	letter-spacing: 0.24em;
+}
+#welcome p {
+	text-align: center;
+}
+/* SP */
+@media only screen and (max-width:640px) {
+	#welcome #slideArea {
+		margin-bottom: 30px;
+	}
+	#welcome #slideArea .pager {
+		margin-top: 10px;
+	}
+	#welcome h3 {
+		margin-bottom: 20px;
+		font-size: 166.7%;
+	}
+}
+
+/* news */
+.section#news {
+	margin-top: 50px;
+	padding: 60px 0;
+	background: url(../imgs/bg-news.jpg) no-repeat center center;
+	-background-size: cover;
+	background-size: cover;
+}
+#news h3 {
+	padding-top: 55px;
+	background: url(../imgs/title-news.png) no-repeat center top;
+	color: #000000;
+	font-family: 'MatisseProN-M', serif;
+	font-size: 114.3%;
+	line-height: 1;
+	text-align: center;
+	letter-spacing: 0.36em;
+}
+#news .list {
+	zoom: 1;
+	margin-top: 50px;
+	padding-left: 60px;
+}
+#news .list:after {
+	display: block;
+	clear: both;
+	height: 0;
+	content: '';
+}
+#news .list li {
+	float: left;
+	width: 33.3%;
+	margin-left: 30px;
+}
+#news .list li:first-child {
+	margin-left: -60px;
+}
+#news .list li a {
+	display: block;
+	padding: 10px 10px 20px;
+	background: #ffffff;
+	color: #333333;
+	text-decoration: none;
+	line-height: 1.67;
+	letter-spacing: 0;
+}
+#news .list li a:hover .image {
+	opacity: 0.75;
+}
+#news .list li a .text {
+	margin-top: 15px;
+	padding: 0 5px;
+}
+#news .list li a .date {
+	margin-bottom: 5px;
+	color: #1C446B;
+	font-size: 85.8%;
+}
+#news .btn {
+	margin-top: 50px;
+	text-align: center;
+}
+#news .btn a {
+	display: inline-block;
+	position: relative;
+	padding: 17px 39px 15px;
+	border: #1C446B solid 1px;
+	color: #1C446B;
+	font-family: 'MatisseProN-DB', serif;
+	font-size: 114.3%;
+	line-height: 1;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 0.36em;
+}
+#news .btn a:hover {
+	background: #1C446B;
+	color: #ffffff;
+}
+#news .btn a:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 19px;
+	margin-top: -3px;
+	border-top: transparent solid 3px;
+	border-bottom: transparent solid 3px;
+	border-left: #1C446B solid 5px;
+}
+#news .btn a:hover:before {
+	border-left-color: #ffffff;
+}
+/* SP */
+@media only screen and (max-width:640px) {
+	.section#news {
+		margin-top: 60px;
+		padding: 20px 0 30px;
+	}
+	#news h3 {
+		padding-top: 35px;
+		-background-size: auto 32px;
+		background-size: auto 32px;
+		font-size: 100%;
+	}
+	#news .list {
+		margin-top: 15px;
+		padding-left: 0;
+	}
+	#news .list li {
+		float: none;
+		width: auto;
+		margin-top: 10px;
+		margin-left: 0;
+	}
+	#news .list li:first-child {
+		margin-top: 0;
+		margin-left: 0;
+	}
+	#news .list li a {
+		display: table;
+		width: 100%;
+		padding: 0;
+	}
+	
+	#news .list li a .image {
+		display: table-cell;
+		width: 100px;
+		padding: 5px;
+		vertical-align: top;
+	}
+	#news .list li a .image img {
+		width: 100px;
+	}
+	#news .list li a .text {
+		display: table-cell;
+		margin-top: 0;
+		padding: 5px;
+		vertical-align: middle;
+	}
+	#news .list li a .date {
+		margin-bottom: 0;
+		font-size: 100%;
+	}
+	#news .list li a .text h4 {
+		font-size: 116.7%;
+	}
+	#news .btn {
+		margin-top: 30px;
+	}
+	#news .btn a {
+		padding: 13px 39px 11px;
+	}
+}

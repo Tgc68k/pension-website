@@ -1,0 +1,459 @@
+.warning{
+  color:red;
+}
+
+.btn{
+  text-align: center;
+}
+
+.displaynone{
+  opacity:0.1;
+}
+
+#button4,
+#button4 span {
+  z-index: 10;
+  position: relative;
+  display: inline-block;
+}
+#button4 span {
+  padding: .65em 4em;
+  font-family:'Montserrat Subrayada', sans-serif;
+  background: -webkit-linear-gradient(#025ee9, #39f5f5);
+  background: linear-gradient( #025ee9, #39f5f5);
+  border: 1px solid #5febfe;
+  border-radius: 55px;
+  color: white;
+  -webkit-text-stroke: 0.5px rgb(91, 194, 82);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  -webkit-animation: 3s float ease-in-out infinite;
+  animation: 3s float ease-in-out infinite;
+}
+#button4::after {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  z-index: -1;
+  content: '';
+  width: 100%;
+  height: 24px;
+  background-color: rgba(0,0,0,.1);
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-animation: 3s shadow ease-in-out infinite;
+  animation: 3s shadow ease-in-out infinite;
+}
+
+#button4:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(10px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
+
+  #button4:hover {
+    -webkit-animation: bounce 2s ease-in-out;
+    animation: bounce 2s ease-in-out;
+  }
+  @-webkit-keyframes bounce {
+    5%  { -webkit-transform: scale(1.1, .8); }
+    10% { -webkit-transform: scale(.8, 1.1) translateY(-5px); }
+    15% { -webkit-transform: scale(1, 1); }
+  }
+  @keyframes bounce {
+    5%  { transform: scale(1.1, .8); }
+    10% { transform: scale(.8, 1.1) translateY(-5px); }
+    15% { transform: scale(1, 1); }
+  }
+@-webkit-keyframes float {
+  50% {
+    -webkit-transform: translateY(-10px);
+  }
+}
+@keyframes float {
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes shadow {
+  50% {
+    width: 70%;
+    height: 18px;
+  }
+}
+@keyframes shadow {
+  50% {
+    width: 70%;
+    height: 18px;
+  }
+}
+
+#button4{
+ margin-top:20px;
+
+
+}
+
+
+#button3,
+#button3 span {
+  z-index: 10;
+  position: relative;
+  display: inline-block;
+}
+#button3 span {
+  padding: .65em 4em;
+  font-family:'Montserrat Subrayada', sans-serif;
+  background: -webkit-linear-gradient(#025ee9, #39f5f5);
+  background: linear-gradient( #025ee9, #39f5f5);
+  border: 1px solid #5febfe;
+  border-radius: 55px;
+  color: white;
+  -webkit-text-stroke: 0.5px rgb(194, 82, 82);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  -webkit-animation: 3s float ease-in-out infinite;
+  animation: 3s float ease-in-out infinite;
+}
+#button3::after {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  z-index: -1;
+  content: '';
+  width: 100%;
+  height: 24px;
+  background-color: rgba(0,0,0,.1);
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-animation: 3s shadow ease-in-out infinite;
+  animation: 3s shadow ease-in-out infinite;
+}
+
+#button3:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(10px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
+
+  #button3:hover {
+    -webkit-animation: bounce 2s ease-in-out;
+    animation: bounce 2s ease-in-out;
+  }
+  @-webkit-keyframes bounce {
+    5%  { -webkit-transform: scale(1.1, .8); }
+    10% { -webkit-transform: scale(.8, 1.1) translateY(-5px); }
+    15% { -webkit-transform: scale(1, 1); }
+  }
+  @keyframes bounce {
+    5%  { transform: scale(1.1, .8); }
+    10% { transform: scale(.8, 1.1) translateY(-5px); }
+    15% { transform: scale(1, 1); }
+  }
+@-webkit-keyframes float {
+  50% {
+    -webkit-transform: translateY(-10px);
+  }
+}
+@keyframes float {
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes shadow {
+  50% {
+    width: 70%;
+    height: 18px;
+  }
+}
+@keyframes shadow {
+  50% {
+    width: 70%;
+    height: 18px;
+  }
+}
+
+#button3{
+ margin-top:20px;
+
+
+}
+
+
+
+#button,
+#button span {
+  z-index: 10;
+  position: relative;
+  display: inline-block;
+}
+#button span {
+  padding: .65em 4em;
+  font-family:'Montserrat Subrayada', sans-serif;
+  background: -webkit-linear-gradient(#025ee9, #39f5f5);
+  background: linear-gradient( #025ee9, #39f5f5);
+  border: 1px solid #5febfe;
+  border-radius: 55px;
+  color: white;
+  -webkit-text-stroke: 0.5px white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  -webkit-animation: 3s float ease-in-out infinite;
+  animation: 3s float ease-in-out infinite;
+}
+#button::after {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  z-index: -1;
+  content: '';
+  width: 100%;
+  height: 24px;
+  background-color: rgba(0,0,0,.1);
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-animation: 3s shadow ease-in-out infinite;
+  animation: 3s shadow ease-in-out infinite;
+}
+
+#button:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(10px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
+
+  #button:hover {
+    -webkit-animation: bounce 2s ease-in-out;
+    animation: bounce 2s ease-in-out;
+  }
+  @-webkit-keyframes bounce {
+    5%  { -webkit-transform: scale(1.1, .8); }
+    10% { -webkit-transform: scale(.8, 1.1) translateY(-5px); }
+    15% { -webkit-transform: scale(1, 1); }
+  }
+  @keyframes bounce {
+    5%  { transform: scale(1.1, .8); }
+    10% { transform: scale(.8, 1.1) translateY(-5px); }
+    15% { transform: scale(1, 1); }
+  }
+@-webkit-keyframes float {
+  50% {
+    -webkit-transform: translateY(-10px);
+  }
+}
+@keyframes float {
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes shadow {
+  50% {
+    width: 70%;
+    height: 18px;
+  }
+}
+@keyframes shadow {
+  50% {
+    width: 70%;
+    height: 18px;
+  }
+}
+
+#button{
+ margin-top:20px;
+
+
+}
+#button2,
+#button2 span {
+  z-index: 10;
+  position: relative;
+  display: inline-block;
+}
+#button2 span {
+  padding: .65em 4em;
+  font-family:'Montserrat Subrayada', sans-serif;
+  background: -webkit-linear-gradient(#025ee9, #39f5f5);
+  background: linear-gradient( #025ee9, #39f5f5);
+  border: 1px solid #5febfe;
+  border-radius: 55px;
+  color: white;
+  -webkit-text-stroke: 0.5px rgb(0, 255, 200);
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  -webkit-animation: 3s float ease-in-out infinite;
+  animation: 3s float ease-in-out infinite;
+}
+#button2::after {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  z-index: -1;
+  content: '';
+  width: 100%;
+  height: 24px;
+  background-color: rgba(0,0,0,.1);
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-animation: 3s shadow ease-in-out infinite;
+  animation: 3s shadow ease-in-out infinite;
+}
+
+#button2:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(10px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
+
+  #button2:hover {
+    -webkit-animation: bounce 2s ease-in-out;
+    animation: bounce 2s ease-in-out;
+  }
+  @-webkit-keyframes bounce {
+    5%  { -webkit-transform: scale(1.1, .8); }
+    10% { -webkit-transform: scale(.8, 1.1) translateY(-5px); }
+    15% { -webkit-transform: scale(1, 1); }
+  }
+  @keyframes bounce {
+    5%  { transform: scale(1.1, .8); }
+    10% { transform: scale(.8, 1.1) translateY(-5px); }
+    15% { transform: scale(1, 1); }
+  }
+@-webkit-keyframes float {
+  50% {
+    -webkit-transform: translateY(-10px);
+  }
+}
+@keyframes float {
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes shadow {
+  50% {
+    width: 70%;
+    height: 18px;
+  }
+}
+@keyframes shadow {
+  50% {
+    width: 70%;
+    height: 18px;
+  }
+}
+
+#button2{
+ margin-top:20px;
+ position:auto;
+
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+body {
+  font-family: Lato, sans-serif;
+  --col-deepblue: #4478e3;
+}
+a {
+  color:#fff;
+  text-decoration:none;
+}
+footer {
+  margin-top: 70px;
+  width:100vw;
+  position:fixed;
+  bottom:0px
+}
+footer div {
+  background-color: var(--col-deepblue);
+  margin: -5px 0px 0px 0px;
+  padding:0px;
+  color: #fff;
+  text-align:center;
+}
+svg {
+  width:100%;
+  overflow:visible;
+}
+
+.wave {
+  animation: wave 3s linear;
+  animation-iteration-count:infinite;
+  fill: #4478e3;
+}
+.drop {
+  fill: var(--col-deepblue);
+  xfill: #99000055;
+  animation: drop 3.2s linear infinite normal;
+  stroke: var(--col-deepblue);
+  stroke-width:0.5;
+  transform: translateY(25px) ;
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+}
+.drop1 {
+  
+}
+.drop2 {
+  animation-delay: 3s;
+  animation-duration:3s;
+}
+.drop3 {
+  animation-delay: -2s;
+  animation-duration:3.4s;
+}
+.drop4 {
+  animation-delay: 1.7s;
+}
+.drop5 {
+  animation-delay: 2.7s;
+  animation-duration:3.1s;
+}
+.drop6 {
+  animation-delay: -2.1s;
+  animation-duration:3.2s;
+}
+.gooeff {
+    filter: url(#goo);
+}
+#wave2 {
+  animation-duration:5s;
+  animation-direction: reverse;
+  opacity: .6
+}
+#wave3 {
+  animation-duration: 7s;
+  opacity:.3;
+}
+@keyframes drop {
+  0% {
+    transform: translateY(25px); 
+  }
+  30% {
+    transform: translateY(-10px) scale(.1);
+  }
+  30.001% {
+    transform: translateY(25px) scale(1); 
+  }
+  70% {
+    transform: translateY(25px); 
+  }
+  100% { 
+    transform: translateY(-10px) scale(.1);  
+  }
+}
+@keyframes wave {
+  to {transform: translateX(-100%);}
+}
